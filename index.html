@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Assistant</title>
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url("https://i.pinimg.com/originals/55/74/54/557454f9d762c6b6c9efdaec66b4dbb9.jpg");
+      }
+
+      h1 {
+        text-align: center;
+        padding: 20px;
+        color: whitesmoke;
+        font-style: italic;
+        font-size: 50px;
+      }
+      textarea {
+        margin-left: 28rem;
+        width: 30%;
+      }
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        font-weight: 200;
+      }
+      #Record,
+      #genrate {
+        background-color: lime;
+        border-radius: 100px;
+        border-width: 0;
+        box-shadow: none;
+        cursor: pointer;
+        font-size: 1rem;
+        color: white;
+        height: auto;
+        width: 150px;
+        height: 30px;
+        margin: 4rem;
+      }
+      #genrate {
+        background-color: blue;
+      }
+      #Record:hover {
+        background-color: rgb(12, 99, 12);
+      }
+      #genrate:hover {
+        background-color: rgb(12, 12, 125);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Voice Assistant</h1>
+    <textarea
+      placeholder="Your voice..."
+      id="text"
+      cols="20"
+      rows="5"
+    ></textarea>
+    <div class="btn">
+      <button id="Record" onclick="GetSpeech()">Record</button>
+      <button id="genrate" onclick="Genrate()">Genrate Results</button>
+    </div>
+    <script src="/js"></script>
+  </body>
+</html>
