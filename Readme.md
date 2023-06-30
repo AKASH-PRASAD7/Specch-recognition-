@@ -68,4 +68,4 @@ Special thanks to the open-source community for their contributions in developin
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, feel free to contact the project maintainer at [email@example.com](mailto:email@example.com).
+If you have any questions, suggestions, or feedback, feel free to contact the project maintainer at [email@example.com](mailto:akash.cse121126@bppimt.ac.in).
